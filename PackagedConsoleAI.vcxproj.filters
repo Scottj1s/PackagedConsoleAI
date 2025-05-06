@@ -30,6 +30,7 @@
   <ItemGroup>
     <None Include="PropertySheet.props" />
     <None Include="packages.config" />
+    <None Include="NuGet.config" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
@@ -59,10 +60,5 @@
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <Midl Include="Source.idl">
-      <Filter>Source Files</Filter>
-    </Midl>
   </ItemGroup>
 </Project>
