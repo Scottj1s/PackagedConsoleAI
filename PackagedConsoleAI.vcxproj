@@ -116,9 +116,6 @@
     <None Include="NuGet.config" />
     <None Include="packages.config" />
     <None Include="PropertySheet.props" />
-    <Text Include="readme.txt">
-      <DeploymentContent>false</DeploymentContent>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\LockScreenLogo.scale-200.png" />

@@ -33,9 +33,6 @@
     <None Include="NuGet.config" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="readme.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="assets\LockScreenLogo.scale-200.png">
       <Filter>Resource Files</Filter>
     </Image>
