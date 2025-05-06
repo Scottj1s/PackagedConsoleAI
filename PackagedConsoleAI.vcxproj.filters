@@ -34,4 +34,35 @@
   <ItemGroup>
     <Text Include="readme.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\LockScreenLogo.scale-200.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\SplashScreen.scale-200.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Square150x150Logo.scale-200.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Square44x44Logo.scale-200.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\StoreLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Wide310x150Logo.scale-200.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Source.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
 </Project>
