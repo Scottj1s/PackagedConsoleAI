@@ -1,7 +1,0 @@
-namespace PackagedConsoleAI
-{
-runtimeclass Empty
-{
-    Int32 Foo;
-}
-}
