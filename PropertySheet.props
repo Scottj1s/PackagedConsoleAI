@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EnableMSIXTooling>true</EnableMSIXTooling>
+    <UseWinUI>false</UseWinUI>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <SDKReference Include="Microsoft.VCLibs, Version=14.0" />
+        <SDKReference Include="Microsoft.VCLibs.Desktop, Version=14.0" />
+        <SDKReference Include="Microsoft.UniversalCRT.Debug, Version=$(TargetPlatformVersion)" Condition="'$(Configuration)' == 'Debug'" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="packages\Microsoft.Experimental.AppContentIndexerPreview.1.8.130-experimental-g62fe9f579a\lib\uap10.0\Microsoft.Windows.AI.Search.winmd">
+            <Implementation>Microsoft.Windows.AI.Search.Experimental.dll</Implementation>
+        </Reference>
+    </ItemGroup>
+    
+    <Target Name="AddProcessedXamlFilesToCopyLocal" />
+</Project>
